@@ -2,7 +2,7 @@ import argparse
 
 
 def build_args():
-    feat_dir = 'data/feats/'
+    feat_dir = 'features/'
     anno_dir = 'data/annotations/'
 
     parser = argparse.ArgumentParser(description='PyTorch Implementation of Audio-Visual Video Parsing')
